@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  echo "Usage: $0 <skill-name> [skills-root]" >&2
+  exit 2
+}
+
+[[ $# -ge 1 && $# -le 2 ]] || usage
+
+skill_name=$1
+skills_root=${2:-"${HOME}/.agents/skills"}
+repo_root=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
+source_dir="${repo_root}/skills/${skill_name}"
+target_dir="${skills_root}/${skill_name}"
+
+if [[ ! "${skill_name}" =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]]; then
+  echo "Invalid skill name: ${skill_name}" >&2
+  exit 1
+fi
+
+if [[ ! -f "${source_dir}/SKILL.md" ]]; then
+  echo "Unknown skill: ${skill_name}" >&2
+  exit 1
+fi
+
+if [[ -e "${target_dir}" ]]; then
+  echo "Refusing to replace existing path: ${target_dir}" >&2
+  exit 1
+fi
+
+mkdir -p "${skills_root}"
+cp -R "${source_dir}" "${target_dir}"
+
+echo "Installed ${skill_name} to ${target_dir}"
+echo "Restart Codex if the skill does not appear in the picker."
