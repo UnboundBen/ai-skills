@@ -15,7 +15,7 @@ The repository is the canonical source for the skills it contains. Installed cop
 Clone the repository, then run:
 
 ```bash
-git clone https://github.com/Enright1/codex-skills.git
+git clone https://github.com/UnboundBen/codex-skills.git
 cd codex-skills
 ./scripts/install-skill resolve-inner-conflict
 ```
