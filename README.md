@@ -1,6 +1,8 @@
-# Ben Davies' Codex Skills
+# Ben Davies' AI Skills
 
-A public library of skills I have made for working with AI.
+A public library of reusable skills I have made for working with AI agents.
+
+The skills are plain Markdown instructions packaged around a `SKILL.md` entrypoint. They are not tied to one AI company or product: any agent that can load that convention—or incorporate the instructions another way—can use them.
 
 The repository is the canonical source for the skills it contains. Installed copies are runtime copies and may be replaced from here.
 
@@ -15,12 +17,12 @@ The repository is the canonical source for the skills it contains. Installed cop
 Clone the repository, then run:
 
 ```bash
-git clone https://github.com/UnboundBen/codex-skills.git
-cd codex-skills
+git clone https://github.com/UnboundBen/ai-skills.git
+cd ai-skills
 ./scripts/install-skill resolve-inner-conflict
 ```
 
-By default this installs to `~/.agents/skills`. To use another skill root:
+By default this installs to `~/.agents/skills`. If your AI tool reads skills from another location, pass that skill root explicitly:
 
 ```bash
 ./scripts/install-skill resolve-inner-conflict /path/to/skills
@@ -34,7 +36,7 @@ The installer refuses to replace an existing copy. Review or remove the existing
 python3 scripts/validate.py
 ```
 
-The same validation runs on GitHub for every push and pull request. When OpenAI's local skill validator is installed, run it against a changed skill as an additional check.
+The same validation runs on GitHub for every push and pull request. When your AI tool provides its own skill validator, run it against a changed skill as an additional compatibility check.
 
 ## Add a skill
 

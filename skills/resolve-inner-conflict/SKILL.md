@@ -236,7 +236,7 @@ Keep the destination outcome-neutral. Edit it when the real matter changes. Do n
 
 #### Ticket
 
-Each ticket holds one question that can be worked within one Codex task.
+Each ticket holds one question that can be worked within one agent task.
 
 ~~~yaml
 ---
@@ -414,7 +414,7 @@ This protocol is single-writer per map.
 
 - The map folder is the portable unit; keep all internal links relative.
 - If the user asks to delete it, identify the exact map folder and use a recoverable deletion where available.
-- State accurately that deleting local files does not erase the Codex task history, synced copies, Git history, or backups.
+- State accurately that deleting local files does not erase conversation or task history retained by the AI tool, synced copies, Git history, or backups.
 
 ## Special cases
 
