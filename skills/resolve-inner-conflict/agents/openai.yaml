@@ -1,0 +1,7 @@
+interface:
+  display_name: "Resolve Inner Conflict"
+  short_description: "Find a way forward without overriding yourself."
+  default_prompt: "Use $resolve-inner-conflict to help me find a way forward without forcing myself past what feels wrong."
+
+policy:
+  allow_implicit_invocation: false
