@@ -2,3 +2,10 @@
 __pycache__/
 *.pyc
 .scratch/
+
+# Secrets never belong in this public repo
+.env
+.env.*
+*.env
+*.pem
+*.key
