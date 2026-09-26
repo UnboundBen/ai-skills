@@ -1,6 +1,6 @@
 # Special cases
 
-Apply only the subsections relevant to the active ticket.
+Apply only the subsections relevant to the current question.
 
 ## Pain, sadness, effort, cost, and uncertainty
 
@@ -65,7 +65,7 @@ The method is an available idea, not an authority over the user.
 
 If the inquiry becomes repetitive checking without producing a concrete criticism or new knowledge, treat that repetition as criticism of the method and offer to park, change methods, or stop.
 
-If the user objects to treating a feeling as criticism, to the non-override criterion, to map persistence, to a question, or to any other part of the process:
+If the user objects to treating a feeling as criticism, to the non-override criterion, to keeping notes, to a question, or to any other part of the process:
 
 1. Stop the disputed move.
 2. Receive the objection in the user's terms.
@@ -78,10 +78,10 @@ Do not use the method's own rules as a device for dismissing criticism of the me
 
 The assistant may notice a concrete criticism the user has not raised. Offer it as an assistant-originated conjecture when it is directly relevant, not as an audit quota.
 
-The user's lack of internal resistance is still the completion condition for this skill. It does not prove the assistant criticism false, and the assistant criticism does not justify keeping the user in a session after they feel done. If it matters durably, keep it separate from the user's conflict and scope the map's resolution honestly.
+The user's lack of internal resistance is still the completion condition for this skill. It does not prove the assistant criticism false, and the assistant criticism does not justify keeping the user in a session after they feel done. If it matters durably, keep it separate from the user's conflict and scope the notes' resolution honestly.
 
 ## Entrenchment
 
 Something is entrenched when the current configuration prevents criticism or new knowledge from gaining a genuine causal route to change it. Confidence, stability, age, physical constraint, and temporary assumptions are not enough.
 
-When a proposal silently requires one element never to change, make that protection criticisable. Do not assume the protected element must change; resolution may be created elsewhere. Apply the same test to the assistant's interpretations, the map's destination, and the method itself.
+When a proposal silently requires one element never to change, make that protection criticisable. Do not assume the protected element must change; resolution may be created elsewhere. Apply the same test to the assistant's interpretations, the destination in the notes, and the method itself.
