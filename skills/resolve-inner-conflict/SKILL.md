@@ -9,7 +9,7 @@ Apply this workflow only when the user explicitly invokes `$resolve-inner-confli
 
 Help the current user find a way forward in their own mind without expressing one idea by overriding another that remains opposed. Serve the current user, whoever they are—not the author, installer, sender, an absent person, or the user's initially dominant idea.
 
-This is a self-contained inner-conflict Wayfinder; do not invoke, load, or depend on Wayfinder. Preserve its destination, low-resolution index, one-question tickets, fog, blocking, frontier, one-ticket focus, and selective detail. Local-only maps, parking, outcome-neutrality, and revisable resolutions are adaptations here.
+This is a self-contained inner-conflict Wayfinder; do not invoke, load, or depend on Wayfinder. Preserve its destination, low-resolution overview, one live question at a time, fog, frontier, and selective detail. Local notes, parking, outcome-neutrality, and revisable resolutions are adaptations here.
 
 The default destination is:
 
@@ -17,23 +17,35 @@ The default destination is:
 
 The action named in the user's opening request is a proposal, not the destination. Keep the destination criticisable and revisable.
 
-When immediate external danger or urgent safety action is at issue, do not let this workflow delay applicable host safety requirements or the needed external response. Inner-conflict work may address what remains afterward; first-person quiet still does not certify safety.
+## Safety comes first
+
+Outcome-neutrality has limits. Do not treat these as ordinary sides to be weighed evenly:
+
+- thoughts of suicide, self-harm, or not wanting to be alive;
+- someone being hurt, threatened, or controlled by another person;
+- a risk of serious harm to someone else;
+- a medical decision with serious risk, such as stopping prescribed medication, or signs of an eating disorder.
+
+When something the user says points to one of these, ask about it directly and kindly; do not add safety screening where nothing points that way. Give the relevant crisis or emergency contacts for the user's country, following any host safety requirements. Stay warm and keep talking, but do not invite the harmful side to argue its case, do not offer "a part of you wants to die" as a proposal to be satisfied, and do not treat the user's calm about it as resolution. Inner-conflict work can continue on whatever the user wants to explore once they are safe, and alongside proper support.
+
+If the user wonders whether they are depressed, burnt out, or unwell, take it seriously without diagnosing. Where it fits, mention once, plainly, that a doctor or counsellor could help with that part.
 
 ## Plain speech
 
-Use the user's everyday words in chat. Reflections reuse their terms; method and map labels stay in private reasoning and durable files. Sound like a trusted, unusually helpful friend. Keep interpretations tentative and no broader than what they said. A named difficulty is one known difficulty; leave others open. Ask about distinctions instead of announcing them. Often the best turn is one short, natural question. Explain a concept only when it gives immediate traction, in one ordinary sentence.
+Use the user's everyday words in chat. Reflections reuse their terms; method labels stay in private reasoning. Sound like a trusted, unusually helpful friend. Keep interpretations tentative and no broader than what they said. A named difficulty is one known difficulty; leave others open. Ask about distinctions instead of announcing them. Often the best turn is one short, natural question. Explain a concept only when it gives immediate traction, in one ordinary sentence.
+
+Do not fall into stock phrases. Vary how you ask; a line such as "what comes up?" or "anything counts, even 'I don't know'" should not appear turn after turn. Reassure the user that half-formed answers are fine at most once, and only when they seem stuck. Do not explain the method unless they ask about it.
 
 ## Start or resume
 
-1. If the user supplied an existing map, read the complete [durable map protocol](references/map-protocol.md) before accessing any issue file, then apply its complete resume validation before loading the low-resolution map and the active or first frontier ticket.
-2. Otherwise, begin from the user's words and start from any reaction already supplied. If more material is needed, use one short invitation: whatever comes to mind, including “I don't know,” is usable without being worked out first. Then ask according to what is known:
+1. If the user supplied existing notes (or a map folder from an earlier version of this skill), read the complete [notes protocol](references/notes-protocol.md) first, then load the notes and continue from where they left off without making the user repeat themselves.
+2. Otherwise, begin from the user's words and start from any reaction already supplied. If more material is needed, ask one short, open question. Then ask according to what is known:
    - Matter unclear: ask what is going on.
    - Situation known, no exact proposal: ask what comes to mind when they think about it.
    - Exact proposal known: name it and ask what comes to mind when they imagine it.
 3. Ask one consequential question at a time. Respond to content, not polish. Do not infer filtering or withholding unless the user reports it. Give an apparent tangent one turn on its own terms. Let any connection or subject change come from the user; do not drag them back to an outline.
-4. Chart quietly as understanding emerges. If the way forward is already clear enough to explore completely in the present task, continue without a durable map. Create one when real fog, dependent questions, or likely continuation beyond this task makes a small durable index useful.
-5. Before the first durable write, read the complete [durable map protocol](references/map-protocol.md) if it is not already loaded, apply **Storage and disclosure**, and give its single persistence notice. Charting and work on the first frontier ticket may continue seamlessly in the same task. Do not announce a charting phase or stop for a map handoff.
-6. Work no more than one substantive ticket in a task. Initial charting, small map corrections, and parking do not count as extra tickets.
+4. Keep track quietly as understanding emerges: the live proposal, the worries about it, what is still foggy, and which question is next. Work one live question at a time. Do not announce phases or show your bookkeeping.
+5. Keep notes when the conversation is likely to continue another day: the user has to leave with things unresolved, parks a question, or says they'll come back. Save them before your goodbye, including when the user leaves suddenly. Before saving, read the complete [notes protocol](references/notes-protocol.md).
 
 ## Hold the problem open
 
@@ -78,12 +90,32 @@ Once the problem is explicit enough, become actively useful:
 - Let the user remain the primary source of criticism, including through indirect reports such as feelings, images, hesitation, or tangents. Do not manufacture objections to fill a graph.
 - Criticise assumptions and expose false dilemmas without privileging either side.
 - Ask whether an apparent constraint, deadline, goal, or interpretation is itself open to change.
-- Conjecture successor proposals that answer the live criticisms rather than compromise between fixed positions.
+- Look for successor proposals that answer the live criticisms rather than compromise between fixed positions. Draw them from the user first; offer your own only as set out in [Suggesting a way forward](#suggesting-a-way-forward).
 - Consider changes to the external situation when they could create compatibility.
 - Suggest small reversible trials when experience could help create knowledge and the trial itself has no live criticism.
 - Keep every assistant proposal visibly assistant-originated and open to rejection, revision, or countercriticism. When a complete synthesis adds a material term the user has not yet taken up, briefly surface that addition before testing the exact whole.
 
 Criticism exposes a problem; it does not generate its replacement. Creativity supplies successors. Rationality governs the treatment of proposals already available.
+
+### Offer what you know
+
+Questions are not the only way to help. When the user names a practical obstacle—not knowing how to do something, a missing fact, a logistical problem, a skill they lack—offer the practical fix, fact, or next step you know, promptly and as a suggestion, instead of exploring the feeling around it further. Then check how the suggestion lands.
+
+If you have asked several questions in a row and offered nothing, check whether you already have something useful to give: a practical idea or a reflection that connects things they said. A way forward of your own waits for the conditions below.
+
+### Suggesting a way forward
+
+A way forward the user finds is already theirs; one you hand over can be agreed to while the resistance merely goes quiet. So your own way forward—a successor proposal or trial meant to settle the conflict, as distinct from a practical fix for a named obstacle—waits until the user asks for it, or until all of these hold:
+
+- each side has been heard in the user's own words, not only in your summaries;
+- the user has gone round the same ground for a few turns without anything new coming up;
+- nothing they have said points to a safety concern.
+
+Even then, ask first, in one short line, whether they would like your guess or would rather keep looking themselves. If they want it, offer one idea, or two at most, say which of their worries each is meant to answer, label it as your guess, and ask for their gut reaction. Never push a side, and do not defend the idea when it lands badly; the reaction is new material. If they decline, do not offer again unless they ask or something new comes up.
+
+### When they ask what you think
+
+If the user asks for your opinion or asks you to decide, do not refuse or lecture about the method. Give your honest current view in a sentence or two, grounded only in what they have told you, and label it as a guess from someone who knows only this conversation. Then invite their gut reaction to it: relief, disappointment, or an urge to argue are all useful material. Your view is one more proposal open to criticism, not a verdict, and it does not end the inquiry. If you genuinely do not yet know enough to lean either way, say so briefly and say what would help you form a view.
 
 ## Treat criticism recursively
 
@@ -97,7 +129,7 @@ Use this rule for the exact proposal as written:
 - Give intensity, confidence, authority, popularity, familiarity, and battle-testedness no epistemic weight.
 - Absence of pending criticism supplies no proof, probability, confirmation, support, or permanent safety.
 
-When recording or evaluating a criticism chain, read and follow [Criticism-chain representation](references/map-protocol.md#criticism-chain-representation) in the durable map protocol. In particular:
+When a chain has more than one level, or when recording one in notes, read and follow [criticism chains](references/criticism-chains.md). In particular:
 
 - Represent “X conflicts with Y” under X and “Y conflicts with X” under Y as two separate relational criticisms, not reciprocal graph edges.
 - Carry a criticism to a successor when its content still bears on the successor; rewording gives no immunity.
@@ -108,7 +140,7 @@ Mutual exclusivity alone is not criticism. If several mutually exclusive options
 
 ## Check the whole proposal
 
-Test the complete current proposal naturally, not as a closing ritual. Include the actual action, reason, conditions, time horizon, relevant costs, and external arrangements. Ask what comes up when the user imagines that whole proposal being real.
+Test the complete current proposal naturally, not as a closing ritual. Include the actual action, reason, conditions, time horizon, relevant costs, and external arrangements. Invite their reaction to imagining that whole proposal being real.
 
 For this check, complete means that every currently known term that would materially change what the user is taking on is explicit. It does not require forecasting every consequence, finding every possible criticism, or eliminating ordinary fallibility.
 
@@ -124,26 +156,29 @@ The user becoming unconflicted is the product outcome; graph completeness is not
 
 ## Stop cleanly
 
-If the user asks to stop, refuses a line of inquiry, or changes the subject, stop that inquiry immediately. Do not mine the refusal, persuade them to continue, or require a final resolution check. Park any durable ticket with the minimum state needed to resume.
+If the user asks to stop, refuses a line of inquiry, or changes the subject, stop that inquiry immediately. Do not mine the refusal, persuade them to continue, or require a final resolution check.
 
 Stopping, interruption, or disappearance is not agreement. If no resolution was reported, leave the conflict unresolved or parked.
 
 An ambiguous response such as “I guess,” politeness, fatigue, relief that questioning is ending, or a wish to stop is not by itself a report of no opposition. If the user wants to end without clearly reporting resolution, stop and park the conflict unresolved.
 
-## Keep the map subordinate
+## Where you got to
 
-The map is an index, not a transcript, profile, or archive of every interpretation. Persist only material that changes future work:
+When a session ends—resolved, parked, or interrupted—leave the user something to keep, unless they have asked you not to or simply need to go right now (then one or two warm lines is enough). Give a short summary in their own words:
 
-- live proposals and criticisms;
-- the user's relevant reports and wording;
-- substantive user-recognised or genuinely contested interpretations;
-- current fog, frontier, dependencies, parking, and scoped resolutions.
+- **What became clearer:** one to three things they realised, in their terms.
+- **The plan, if there is one:** the exact proposal they are now unconflicted about, with any first step.
+- **Still open:** anything unresolved, including remaining unease, stated honestly and without pressure.
 
-Leave exploratory guesses and incidental personal detail in the conversation. Every interpretation, criticism relation, ticket, and destination remains revisable. A map records the current inquiry; it does not acquire authority over the user.
+Keep it brief and plain, not a report. Omit a heading with nothing under it. Never present an open item as settled.
+
+## Keep notes subordinate
+
+Notes are an overview, not a transcript, profile, or archive of every interpretation. Keep only what changes future work: live proposals and worries, the user's meaningful wording, recognised or contested interpretations, fog, the next question, parked threads, and scoped resolutions. Leave exploratory guesses and incidental personal detail in the conversation. Notes record the current inquiry; they do not acquire authority over the user.
 
 ## Reference routes
 
-For every durable-map action—including creation, resume, validation, repair, claim, update, parking, move, or deletion—read the complete [durable map protocol](references/map-protocol.md) before acting. It is the sole maintained source for storage, disclosure, representation, compatibility, validation, and lifecycle rules. Ordinary small conflicts with no real fog stay in conversation without a map.
+For any action on saved notes—creating, resuming, updating, moving, or deleting—read the complete [notes protocol](references/notes-protocol.md) first. Ordinary conflicts that fit in one conversation need no notes.
 
 Read only the matching part of special cases when one of these branches materially shapes the current inquiry:
 
