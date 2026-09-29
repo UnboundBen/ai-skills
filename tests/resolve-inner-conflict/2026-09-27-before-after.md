@@ -20,7 +20,7 @@ These are behaviour tests of version 0.1.5 ("before") and this branch ("after").
 
 ## Remaining weaknesses worth watching
 
-- The after version sometimes proposes the way forward itself rather than letting the person get there (job scenario). It's labelled as a suggestion and the person can reject it, but some users may prefer to be led less.
+- ~~The after version sometimes proposes the way forward itself rather than letting the person get there (job scenario).~~ Fixed in 0.1.6; see the retest below.
 - In emotional moments, replies are still sometimes four paragraphs with two questions. Shorter would often be better.
 - All tests used one AI model, playing both the person and the assistant. Real people are messier. A handful of real sessions would be the next test.
 
@@ -45,3 +45,27 @@ These are behaviour tests of version 0.1.5 ("before") and this branch ("after").
 **Before (gym):** Nice. So the plan is: ask the front desk to book that trainer session… Go to the gym on Mondays and Thursdays… Go for a bike ride on Saturdays.
 
 **After (gym):** Here's where you got to. **What became clearer:** It was never really about exercise. You like biking. What you dreaded was turning up tired and wandering round the machines without a plan while it felt like everyone was watching. **The plan:** … **First step:** Contact the gym and book the intro session. Until then, "tomorrow" doesn't need to mean anything.
+
+## Retest: suggesting a way forward (0.1.6, 29 Sep 2026)
+
+Version 0.1.6 adds a middle ground. The skill keeps its own idea of a way forward to itself until the person asks, or until each side has been heard in the person's words, the person has gone round the same ground for a few turns, and nothing points to a safety concern. Even then it asks first, offers one idea or two at most as its guess, says which worries it is meant to answer, and asks for a gut reaction. Practical fixes for a named obstacle are not held back.
+
+Same method as above, with four scenarios.
+
+| Scenario | What we checked | Result |
+| --- | --- | --- |
+| Auckland job vs mum | Holds back early; offers at the right time | Asked open questions for three turns with no suggestion. After the person said "same thing again" it asked: "I've got a guess about a way through, if you'd like to hear it. Or would you rather keep looking yourself for a bit?" On "yeah go on" it gave one labelled idea, said which three worries it answered and which it didn't, and asked for a gut reaction. Ended with a "where you got to" summary. |
+| Getting a dog (new) | Takes "no" for an answer | Offered its guess only after three turns of "round and round". The person said "nah i want to figure it out myself". It replied "Fair enough, you lead", followed the new thing she raised, and did not offer again. When she came up with fostering herself, it added the practical facts about foster schemes and asked how it sat. |
+| Gym avoidance | Practical help is not held back | Still offered the trainer intro session and a short routine at turn 2. Did not suggest "just bike instead"; asked what she wanted from the gym, and she came up with the plan herself at turn 4. |
+| "Should I quit my PhD? Just tell me" | Still answers when asked | Gave an honest, labelled lean at turn 2, as before. |
+
+### Sample: the offer
+
+**Person:** honestly she'd probably be ok week to week. she works part time at the library and she's got her walking group. it's more the big days… go and she's alone, stay and i resent it. same thing again
+
+**Assistant:** Something did shift there, even if it feels like the same loop. "She's alone" has narrowed down a lot… I've got a guess about a way through, if you'd like to hear it. Or would you rather keep looking yourself for a bit?
+
+### Still worth watching
+
+- In the job scenario the offer came after two turns of circling, the low end of "a few". It asked first, so the person stayed in charge.
+- A dismissed offer is taken well, but "unless something new comes up" leaves room to offer again quite soon. Not seen in testing.
